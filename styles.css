@@ -1,0 +1,272 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  background-color: #67DCFF;
+}
+
+.nn{
+  margin:0 20px;
+  font-size: 140%;
+  transition: 0.5s ease;
+  position: relative;
+  color: #1C5C9C;
+}
+
+.nn:hover{
+  text-decoration: none;
+  color: #002868;
+}
+
+.nn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: -6px;
+  right: 0;
+  background-color: #002868;
+  transition: 0.3s ease-in-out;
+}
+
+.nn:hover:before {
+  left:0;
+  width:100%;
+}
+
+#profile1{
+  height:90px;
+  width:150px;
+  margin-left: -25px;
+  border-radius:50%;
+}
+
+#navhead {
+  transition: top 0.6s;
+}
+
+.head{
+  font-family: 'Oleo Script', cursive;
+  font-size: 220%;
+  position: relative;
+  padding-top: 50px;
+  top:90px;
+  color: #1C5C9C;
+}
+
+.subhead{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top:90px;
+  color: #1C5C9C;
+}
+
+h1{
+  color:#00C3E3;
+  padding-bottom: 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+h2,h3{
+  color: #1C5C9C;
+  padding-top: 15px;
+}
+
+.hor{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: #6c7b95;
+  width: 8%;
+}
+
+.horskill{
+  border-color: white;
+}
+
+.comp{
+  text-align: center;
+  background-image: url("computing.gif");
+  height: 750px;
+  /* background-attachment: fixed; */
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section-about{
+  text-align:center;
+  padding:40px 25px 20px 25px;
+}
+
+.container{
+  padding-bottom: 60px;
+  margin: 40px 20px;
+}
+
+#profile2{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+}
+
+.aboutimage{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  box-shadow: 0 0 6px 2px #6c7b95;
+}
+
+.skill{
+  margin:20px 10px 50px 10px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#section-skills{
+  background-color: #2999ff;
+  width:100%;
+  height:100%;
+  text-align: center;
+  color:white;
+}
+
+#section-skills h1{
+  color:white;
+  position: relative;
+  top:30px;
+  padding-bottom: 100px;
+}
+
+.aboutimage2{
+  height:120px;
+  width:140px;
+  border-radius:50%;
+  box-shadow: 0 0 6px 2px #2979ef;
+}
+
+#section-projects{
+  text-align:center;
+  padding:40px 25px 20px 25px;
+}
+
+.proimage{
+  height:350px;
+  width:450px;
+  left:50%;
+  transform: translateX(-50%);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0 6px 2px #6c7b95;
+  position: relative;
+}
+
+#column1{
+  background-image: url("https://arnaldo123.github.io/portfolio/tindogproject.PNG");
+}
+
+#column2{
+  background-image: url("https://arnaldo123.github.io/portfolio/reactionproject.PNG");
+}
+
+#column3{
+  background-image: url("https://arnaldo123.github.io/portfolio/simonproject.PNG");
+}
+/* https://arnaldo123.github.io/portfolio/ */
+.proimage:after{
+  content: ' ';
+  position: absolute;
+  left:0;
+  height:100%;
+  width:0;
+  background-color: rgb(26, 168, 245, 0.5);
+  transition: 0.5s ease;
+}
+
+.proimage:hover:after {
+  width:100%;
+}
+
+/* .button{
+  color:white;
+} */
+
+.abutton{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width:160px;
+  height:60px;
+  text-decoration: none;
+  color: white;
+  font-size: 120%;
+  padding-top: 12px;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 2px #6c7b95;
+  background-image: linear-gradient( to left, #00C3E3 , #2999ff , #00C3E3 );
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.abutton:hover{
+  text-decoration: none;
+  font-weight: 600;
+  background-position: -50px;
+}
+
+.footer{
+  width:100%;
+  height:300px;
+  background-color: #01C2E4;
+  text-align: center;
+}
+
+.footer h1{
+  padding-top: 30px;
+  color:#1C5C9C;
+}
+.footer p,.footer h5{
+  color:#1C5C9C;
+  margin-bottom: 30px;
+}
+
+.foot{
+  padding-bottom: 15px;
+}
+
+.footer a{
+  margin:0 20px;
+  color:#1C5C9C;
+  font-size: 130%;
+  position: relative;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: #002868;
+}
+
+.footer-link:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  right: 0;
+  background-color: #002868;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-link:hover:before {
+  left:0;
+  width:100%;
+}
